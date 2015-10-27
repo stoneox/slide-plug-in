@@ -1,0 +1,65 @@
+<style type="text/css">
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        #picShow img
+        {
+            width: 1200px;
+            height: 412px;
+            float: left;
+        }
+        #picShow
+        {
+           width: 6000px;
+            position: relative;
+            left:-1200px;
+        }
+        #communityActivities
+        {
+            width: 1200px;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .arrow {                                    /*上一页下一页标记css*/
+            width:40px;
+            height: 80px;
+            z-index: 2;
+            position: absolute;
+            top: 50%;
+            margin-top: -40px;
+            cursor: pointer;
+            display: none;
+        }
+        .arrow_left {left:   20px;background: url('../img/bg17.png');}
+        .arrow_right {right: 20px;background: url('../img/bg18.png');}
+        .slideSet {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            width: 100px;
+            text-align: center;
+            height: 15px;
+            z-index: 2;
+            margin-left: -50px;
+            border-radius: 5px;
+            padding: 0 0 4px 0;
+            background:  rgba(255,255,255,0.5);
+        }
+        .slideIcon {                                /*页面切换按钮css*/
+            display: inline-block;
+            background: #808080;
+            z-index: 2;
+            width: 10px;
+            height:10px;
+            margin:0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .active {
+            background: #FF8000;
+        }
+    </style>
